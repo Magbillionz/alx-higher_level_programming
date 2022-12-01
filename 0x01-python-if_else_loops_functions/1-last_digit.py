@@ -9,7 +9,7 @@ if number < 0:
     temp = temp % 10
     temp = -temp
 else:
-   temp = number % 10
+    temp = number % 10
 print(f"Last digit of {number:d} is ", end="")
 if temp > 5:
     print(f"{temp:d} and is greater than 5")
